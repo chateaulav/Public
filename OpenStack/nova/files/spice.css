@@ -113,23 +113,21 @@ p#hostname {
 }
 
 #spice-area {
-    height: calc(100vh - 30px) !important;
-    width: calc(100vW - 3px) !important;
+    height: 100%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
 .spice-screen {
-    height: calc(100vh - 30px) !important;
-    width: calc(100vW - 3px) !important;
+    min-height: 600px;
+    height: 100%;
     text-align: center;
     padding: 0;
 }
 
 canvas {
     border: 1px solid #0ad000;
-    height: calc(100vh - 30px) !important;
-    width: calc(100vW - 3px) !important;
 }
 
 button.commands {
